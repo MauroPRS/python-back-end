@@ -84,7 +84,7 @@ def main():
             registrar_bicicleta()
         elif opcion==5:
             for consola in lista_consolas:
-                print(f"Nombre: {consola.nombre}, Precio: ${consola.calcular_precio_con_descuento}")
+                consola.mostrar_caracteristicas()
         elif opcion==6:
             for tv in lista_tvs:
                 tv.mostrar_caracteristicas()
